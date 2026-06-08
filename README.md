@@ -73,5 +73,3 @@ ngrok.set_auth_token("YOUR_NGROK_TOKEN")
 public_url = ngrok.connect(8501)
 print(public_url)
 ```
-
-> ⚠️ Replace `YOUR_NGROK_TOKEN` with your token from [ngrok.com](https://ngrok.com)
