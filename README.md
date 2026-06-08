@@ -3,13 +3,14 @@ An interactive sales analytics dashboard built with Streamlit and Plotly. Upload
 
 📁 Project Structure
 ai_dashboard_project/
-├── app.py                  # Main Streamlit source code
-├── README.md               # Project documentation (this file)
-├── dataset_info.md         # Dataset details and link
-├── instructions.md         # How to run the project
+├── app.py                  
+├── README.md               
+├── dataset_info.md         
+├── instructions.md        
 └── screenshots/
     ├── screenshot_metrics.png
     └── screenshot_chart.png
+
 🚀 Features
 KPI Cards — Total Revenue, Total Quantity Sold, Average Rating
 Dataset Preview — Scrollable table of the first 5 rows
@@ -22,17 +23,21 @@ pandas
 plotly
 Install all dependencies:
 
+
 pip install streamlit pandas plotly
 ▶️ How to Run
 streamlit run app.py
 The dashboard opens automatically at http://localhost:8501
 
+
 📊 Dataset
 The app expects a file named sales.csv in the same directory.
 See dataset_info.md for the dataset link and column reference.
 
+
 🌐 Running on Google Colab (optional)
 If running in Colab, use pyngrok to expose the local port:
+
 
 !pip install streamlit pyngrok
 !streamlit run app.py &>/content/logs.txt &
